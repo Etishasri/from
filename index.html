@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sign Up Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/task2.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <form method="post" action="#">
+               <h1>SIGN UP FORM</h1>
+               <p>Please Fill In This Form</p> 
+               <hr>
+               <div class="sub-container">
+                   <label for="frist-name">FIRST NAME: <input id="first-name"  type="text" required placeholder="ENTER YOUR FIRST NAME"></label>
+                   <label for="last-name">LAST NAME: <input id="last-name"  type="text" required placeholder="ENTER YOUR LAST NAME"></label>
+                   <label for="email">EMAIL: <input id="email"  type="email" required placeholder="abc@gmail.com"></label>
+                   <label for="password">PASSWORD: <input id="password"  type="password" pattern="[a-z 0-5]{8}" required placeholder="abcd1234"></label>
+                   <input class="form" type="submit" value="SUBMIT">
+               </div> 
+               <hr>  
+            </form>   
+        </div>
+    </body>
+</html>
